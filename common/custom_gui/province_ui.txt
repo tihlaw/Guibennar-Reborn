@@ -32,20 +32,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = centaur_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = centaur }
-					country_event = { id = racial_pop_events_centaur.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -55,20 +41,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = centaur_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = centaur }
-					country_event = { id = racial_pop_events_centaur.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -78,20 +50,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = centaur_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = centaur }
-					country_event = { id = racial_pop_events_centaur.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -101,20 +59,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = centaur_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = centaur }
-					country_event = { id = racial_pop_events_centaur.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -124,20 +68,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = centaur_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = centaur }
-					country_event = { id = racial_pop_events_centaur.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -147,20 +77,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = centaur_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = centaur }
-					country_event = { id = racial_pop_events_centaur.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -170,20 +86,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = centaur_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = centaur }
-					country_event = { id = racial_pop_events_centaur.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -193,20 +95,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = centaur_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = centaur }
-					country_event = { id = racial_pop_events_centaur.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -216,20 +104,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = centaur_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = centaur }
-					country_event = { id = racial_pop_events_centaur.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -242,20 +116,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = dwarven_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = dwarven }
-					country_event = { id = racial_pop_events_dwarven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -265,20 +125,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = dwarven_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = dwarven }
-					country_event = { id = racial_pop_events_dwarven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -288,20 +134,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = dwarven_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = dwarven }
-					country_event = { id = racial_pop_events_dwarven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -311,20 +143,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = dwarven_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = dwarven }
-					country_event = { id = racial_pop_events_dwarven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -334,20 +152,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = dwarven_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = dwarven }
-					country_event = { id = racial_pop_events_dwarven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -357,20 +161,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = dwarven_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = dwarven }
-					country_event = { id = racial_pop_events_dwarven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -380,20 +170,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = dwarven_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = dwarven }
-					country_event = { id = racial_pop_events_dwarven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -403,20 +179,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = dwarven_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = dwarven }
-					country_event = { id = racial_pop_events_dwarven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -426,20 +188,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = dwarven_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = dwarven }
-					country_event = { id = racial_pop_events_dwarven.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -452,20 +200,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = elven_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = elven }
-					country_event = { id = racial_pop_events_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -475,20 +209,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = elven_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = elven }
-					country_event = { id = racial_pop_events_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -498,20 +218,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = elven_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = elven }
-					country_event = { id = racial_pop_events_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -521,20 +227,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = elven_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = elven }
-					country_event = { id = racial_pop_events_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -544,20 +236,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = elven_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = elven }
-					country_event = { id = racial_pop_events_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -567,20 +245,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = elven_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = elven }
-					country_event = { id = racial_pop_events_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -590,20 +254,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = elven_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = elven }
-					country_event = { id = racial_pop_events_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -613,20 +263,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = elven_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = elven }
-					country_event = { id = racial_pop_events_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -636,20 +272,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = elven_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = elven }
-					country_event = { id = racial_pop_events_elven.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -662,20 +284,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnollish_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnollish }
-					country_event = { id = racial_pop_events_gnollish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -685,20 +293,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnollish_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnollish }
-					country_event = { id = racial_pop_events_gnollish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -708,20 +302,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnollish_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnollish }
-					country_event = { id = racial_pop_events_gnollish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -731,20 +311,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnollish_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnollish }
-					country_event = { id = racial_pop_events_gnollish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -754,20 +320,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnollish_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnollish }
-					country_event = { id = racial_pop_events_gnollish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -777,20 +329,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnollish_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnollish }
-					country_event = { id = racial_pop_events_gnollish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -800,20 +338,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnollish_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnollish }
-					country_event = { id = racial_pop_events_gnollish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -823,20 +347,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnollish_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnollish }
-					country_event = { id = racial_pop_events_gnollish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -846,20 +356,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnollish_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnollish }
-					country_event = { id = racial_pop_events_gnollish.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -872,20 +368,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnomish_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnomish }
-					country_event = { id = racial_pop_events_gnomish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -895,20 +377,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnomish_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnomish }
-					country_event = { id = racial_pop_events_gnomish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -918,20 +386,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnomish_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnomish }
-					country_event = { id = racial_pop_events_gnomish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -941,20 +395,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnomish_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnomish }
-					country_event = { id = racial_pop_events_gnomish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -964,20 +404,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnomish_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnomish }
-					country_event = { id = racial_pop_events_gnomish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -987,20 +413,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnomish_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnomish }
-					country_event = { id = racial_pop_events_gnomish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1010,20 +422,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnomish_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnomish }
-					country_event = { id = racial_pop_events_gnomish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1033,20 +431,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnomish_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnomish }
-					country_event = { id = racial_pop_events_gnomish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1056,20 +440,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnomish_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = gnomish }
-					country_event = { id = racial_pop_events_gnomish.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -1082,20 +452,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = goblin_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = goblin }
-					country_event = { id = racial_pop_events_goblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1105,20 +461,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = goblin_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = goblin }
-					country_event = { id = racial_pop_events_goblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1128,20 +470,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = goblin_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = goblin }
-					country_event = { id = racial_pop_events_goblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1151,20 +479,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = goblin_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = goblin }
-					country_event = { id = racial_pop_events_goblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1174,20 +488,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = goblin_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = goblin }
-					country_event = { id = racial_pop_events_goblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1197,20 +497,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = goblin_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = goblin }
-					country_event = { id = racial_pop_events_goblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1220,20 +506,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = goblin_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = goblin }
-					country_event = { id = racial_pop_events_goblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1243,20 +515,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = goblin_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = goblin }
-					country_event = { id = racial_pop_events_goblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1266,20 +524,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = goblin_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = goblin }
-					country_event = { id = racial_pop_events_goblin.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -1292,20 +536,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_elven_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_elven }
-					country_event = { id = racial_pop_events_half_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1315,20 +545,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_elven_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_elven }
-					country_event = { id = racial_pop_events_half_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1338,20 +554,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_elven_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_elven }
-					country_event = { id = racial_pop_events_half_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1361,20 +563,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_elven_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_elven }
-					country_event = { id = racial_pop_events_half_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1384,20 +572,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_elven_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_elven }
-					country_event = { id = racial_pop_events_half_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1407,20 +581,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_elven_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_elven }
-					country_event = { id = racial_pop_events_half_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1430,20 +590,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_elven_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_elven }
-					country_event = { id = racial_pop_events_half_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1453,20 +599,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_elven_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_elven }
-					country_event = { id = racial_pop_events_half_elven.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1476,20 +608,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_elven_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_elven }
-					country_event = { id = racial_pop_events_half_elven.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -1502,20 +620,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_orcish_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_orcish }
-					country_event = { id = racial_pop_events_half_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1525,20 +629,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_orcish_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_orcish }
-					country_event = { id = racial_pop_events_half_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1548,20 +638,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_orcish_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_orcish }
-					country_event = { id = racial_pop_events_half_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1571,20 +647,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_orcish_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_orcish }
-					country_event = { id = racial_pop_events_half_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1594,20 +656,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_orcish_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_orcish }
-					country_event = { id = racial_pop_events_half_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1617,20 +665,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_orcish_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_orcish }
-					country_event = { id = racial_pop_events_half_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1640,20 +674,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_orcish_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_orcish }
-					country_event = { id = racial_pop_events_half_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1663,20 +683,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_orcish_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_orcish }
-					country_event = { id = racial_pop_events_half_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1686,20 +692,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_orcish_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = half_orcish }
-					country_event = { id = racial_pop_events_half_orcish.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -1712,20 +704,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = halfling_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = halfling }
-					country_event = { id = racial_pop_events_halfling.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1735,20 +713,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = halfling_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = halfling }
-					country_event = { id = racial_pop_events_halfling.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1758,20 +722,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = halfling_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = halfling }
-					country_event = { id = racial_pop_events_halfling.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1781,20 +731,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = halfling_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = halfling }
-					country_event = { id = racial_pop_events_halfling.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1804,20 +740,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = halfling_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = halfling }
-					country_event = { id = racial_pop_events_halfling.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1827,20 +749,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = halfling_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = halfling }
-					country_event = { id = racial_pop_events_halfling.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1850,20 +758,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = halfling_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = halfling }
-					country_event = { id = racial_pop_events_halfling.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1873,20 +767,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = halfling_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = halfling }
-					country_event = { id = racial_pop_events_halfling.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1896,20 +776,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = halfling_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = halfling }
-					country_event = { id = racial_pop_events_halfling.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -1922,20 +788,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harimari_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harimari }
-					country_event = { id = racial_pop_events_harimari.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1945,20 +797,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harimari_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harimari }
-					country_event = { id = racial_pop_events_harimari.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1968,20 +806,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harimari_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harimari }
-					country_event = { id = racial_pop_events_harimari.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -1991,20 +815,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harimari_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harimari }
-					country_event = { id = racial_pop_events_harimari.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2014,20 +824,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harimari_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harimari }
-					country_event = { id = racial_pop_events_harimari.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2037,20 +833,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harimari_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harimari }
-					country_event = { id = racial_pop_events_harimari.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2060,20 +842,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harimari_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harimari }
-					country_event = { id = racial_pop_events_harimari.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2083,20 +851,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harimari_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harimari }
-					country_event = { id = racial_pop_events_harimari.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2106,20 +860,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harimari_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harimari }
-					country_event = { id = racial_pop_events_harimari.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -2132,20 +872,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harpy_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harpy }
-					country_event = { id = racial_pop_events_harpy.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2155,20 +881,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harpy_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harpy }
-					country_event = { id = racial_pop_events_harpy.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2178,20 +890,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harpy_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harpy }
-					country_event = { id = racial_pop_events_harpy.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2201,20 +899,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harpy_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harpy }
-					country_event = { id = racial_pop_events_harpy.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2224,20 +908,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harpy_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harpy }
-					country_event = { id = racial_pop_events_harpy.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2247,20 +917,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harpy_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harpy }
-					country_event = { id = racial_pop_events_harpy.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2270,20 +926,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harpy_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harpy }
-					country_event = { id = racial_pop_events_harpy.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2293,20 +935,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harpy_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harpy }
-					country_event = { id = racial_pop_events_harpy.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2316,20 +944,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harpy_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = harpy }
-					country_event = { id = racial_pop_events_harpy.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -2342,20 +956,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = hobgoblin_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = hobgoblin }
-					country_event = { id = racial_pop_events_hobgoblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2365,20 +965,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = hobgoblin_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = hobgoblin }
-					country_event = { id = racial_pop_events_hobgoblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2388,20 +974,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = hobgoblin_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = hobgoblin }
-					country_event = { id = racial_pop_events_hobgoblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2411,20 +983,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = hobgoblin_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = hobgoblin }
-					country_event = { id = racial_pop_events_hobgoblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2434,20 +992,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = hobgoblin_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = hobgoblin }
-					country_event = { id = racial_pop_events_hobgoblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2457,20 +1001,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = hobgoblin_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = hobgoblin }
-					country_event = { id = racial_pop_events_hobgoblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2480,20 +1010,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = hobgoblin_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = hobgoblin }
-					country_event = { id = racial_pop_events_hobgoblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2503,20 +1019,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = hobgoblin_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = hobgoblin }
-					country_event = { id = racial_pop_events_hobgoblin.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2526,20 +1028,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = hobgoblin_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = hobgoblin }
-					country_event = { id = racial_pop_events_hobgoblin.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -2552,20 +1040,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = human_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = human }
-					country_event = { id = racial_pop_events_human.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2575,20 +1049,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = human_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = human }
-					country_event = { id = racial_pop_events_human.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2598,20 +1058,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = human_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = human }
-					country_event = { id = racial_pop_events_human.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2621,20 +1067,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = human_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = human }
-					country_event = { id = racial_pop_events_human.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2644,20 +1076,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = human_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = human }
-					country_event = { id = racial_pop_events_human.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2667,20 +1085,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = human_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = human }
-					country_event = { id = racial_pop_events_human.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2690,20 +1094,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = human_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = human }
-					country_event = { id = racial_pop_events_human.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2713,20 +1103,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = human_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = human }
-					country_event = { id = racial_pop_events_human.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2736,20 +1112,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = human_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = human }
-					country_event = { id = racial_pop_events_human.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -2762,20 +1124,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = kobold_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = kobold }
-					country_event = { id = racial_pop_events_kobold.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2785,20 +1133,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = kobold_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = kobold }
-					country_event = { id = racial_pop_events_kobold.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2808,20 +1142,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = kobold_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = kobold }
-					country_event = { id = racial_pop_events_kobold.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2831,20 +1151,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = kobold_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = kobold }
-					country_event = { id = racial_pop_events_kobold.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2854,20 +1160,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = kobold_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = kobold }
-					country_event = { id = racial_pop_events_kobold.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2877,20 +1169,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = kobold_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = kobold }
-					country_event = { id = racial_pop_events_kobold.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2900,20 +1178,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = kobold_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = kobold }
-					country_event = { id = racial_pop_events_kobold.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2923,20 +1187,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = kobold_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = kobold }
-					country_event = { id = racial_pop_events_kobold.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2946,20 +1196,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = kobold_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = kobold }
-					country_event = { id = racial_pop_events_kobold.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -2972,20 +1208,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = lizardfolk_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = lizardfolk }
-					country_event = { id = racial_pop_events_lizardfolk.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -2995,20 +1217,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = lizardfolk_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = lizardfolk }
-					country_event = { id = racial_pop_events_lizardfolk.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3018,20 +1226,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = lizardfolk_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = lizardfolk }
-					country_event = { id = racial_pop_events_lizardfolk.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3041,20 +1235,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = lizardfolk_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = lizardfolk }
-					country_event = { id = racial_pop_events_lizardfolk.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3064,20 +1244,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = lizardfolk_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = lizardfolk }
-					country_event = { id = racial_pop_events_lizardfolk.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3087,20 +1253,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = lizardfolk_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = lizardfolk }
-					country_event = { id = racial_pop_events_lizardfolk.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3110,20 +1262,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = lizardfolk_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = lizardfolk }
-					country_event = { id = racial_pop_events_lizardfolk.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3133,20 +1271,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = lizardfolk_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = lizardfolk }
-					country_event = { id = racial_pop_events_lizardfolk.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3156,20 +1280,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = lizardfolk_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = lizardfolk }
-					country_event = { id = racial_pop_events_lizardfolk.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -3182,20 +1292,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ogre_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ogre }
-					country_event = { id = racial_pop_events_ogre.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3205,20 +1301,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ogre_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ogre }
-					country_event = { id = racial_pop_events_ogre.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3228,20 +1310,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ogre_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ogre }
-					country_event = { id = racial_pop_events_ogre.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3251,20 +1319,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ogre_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ogre }
-					country_event = { id = racial_pop_events_ogre.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3274,20 +1328,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ogre_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ogre }
-					country_event = { id = racial_pop_events_ogre.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3297,20 +1337,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ogre_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ogre }
-					country_event = { id = racial_pop_events_ogre.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3320,20 +1346,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ogre_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ogre }
-					country_event = { id = racial_pop_events_ogre.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3343,20 +1355,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ogre_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ogre }
-					country_event = { id = racial_pop_events_ogre.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3366,20 +1364,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ogre_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ogre }
-					country_event = { id = racial_pop_events_ogre.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -3392,20 +1376,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = orcish_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = orcish }
-					country_event = { id = racial_pop_events_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3415,20 +1385,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = orcish_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = orcish }
-					country_event = { id = racial_pop_events_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3438,20 +1394,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = orcish_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = orcish }
-					country_event = { id = racial_pop_events_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3461,20 +1403,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = orcish_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = orcish }
-					country_event = { id = racial_pop_events_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3484,20 +1412,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = orcish_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = orcish }
-					country_event = { id = racial_pop_events_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3507,20 +1421,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = orcish_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = orcish }
-					country_event = { id = racial_pop_events_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3530,20 +1430,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = orcish_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = orcish }
-					country_event = { id = racial_pop_events_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3553,20 +1439,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = orcish_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = orcish }
-					country_event = { id = racial_pop_events_orcish.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3576,20 +1448,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = orcish_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = orcish }
-					country_event = { id = racial_pop_events_orcish.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -3602,20 +1460,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ruinborn_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ruinborn }
-					country_event = { id = racial_pop_events_ruinborn.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3625,20 +1469,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ruinborn_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ruinborn }
-					country_event = { id = racial_pop_events_ruinborn.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3648,20 +1478,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ruinborn_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ruinborn }
-					country_event = { id = racial_pop_events_ruinborn.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3671,20 +1487,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ruinborn_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ruinborn }
-					country_event = { id = racial_pop_events_ruinborn.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3694,20 +1496,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ruinborn_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ruinborn }
-					country_event = { id = racial_pop_events_ruinborn.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3717,20 +1505,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ruinborn_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ruinborn }
-					country_event = { id = racial_pop_events_ruinborn.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3740,20 +1514,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ruinborn_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ruinborn }
-					country_event = { id = racial_pop_events_ruinborn.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3763,20 +1523,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ruinborn_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ruinborn }
-					country_event = { id = racial_pop_events_ruinborn.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3786,20 +1532,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ruinborn_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = ruinborn }
-					country_event = { id = racial_pop_events_ruinborn.12 }
-				}
-			}
-		}
 	}
 }
 
@@ -3812,20 +1544,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = troll_minority_oppressed_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = troll }
-					country_event = { id = racial_pop_events_troll.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3835,20 +1553,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = troll_minority_oppressed_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = troll }
-					country_event = { id = racial_pop_events_troll.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3858,20 +1562,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = troll_minority_coexisting_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = troll }
-					country_event = { id = racial_pop_events_troll.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3881,20 +1571,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = troll_minority_coexisting_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = troll }
-					country_event = { id = racial_pop_events_troll.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3904,20 +1580,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = troll_minority_integrated_small_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = troll }
-					country_event = { id = racial_pop_events_troll.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3927,20 +1589,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = troll_minority_integrated_large_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = troll }
-					country_event = { id = racial_pop_events_troll.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3950,20 +1598,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = troll_majority_oppressed_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = troll }
-					country_event = { id = racial_pop_events_troll.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3973,20 +1607,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = troll_majority_coexisting_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = troll }
-					country_event = { id = racial_pop_events_troll.12 }
-				}
-			}
-		}
 	}
 }
 custom_button = {
@@ -3996,20 +1616,6 @@ custom_button = {
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = troll_majority_integrated_ui duration = -1 } }
-		hidden_effect = {
-			FROM = { 
-				if = {
-					limit = {
-						NOT = { has_country_flag = racial_military_menu_opened }
-						NOT = { has_country_flag = racial_pop_menu_opened }
-						NOT = { has_country_modifier = racial_pop_menu_cooldown }
-					}
-					set_country_flag = racial_pop_menu_opened
-					pop_menu_cored_dev_calculations = { RACE = troll }
-					country_event = { id = racial_pop_events_troll.12 }
-				}
-			}
-		}
 	}
 }
 
