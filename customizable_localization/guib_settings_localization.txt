@@ -1,0 +1,228 @@
+defined_text = {
+	name = GetGuibAlertRed
+	random = no
+	text = {
+		localisation_key = guib_alert_text_red
+		trigger = {
+			OR = {
+				AND = {
+					capital_scope = { superregion = bulwar_superregion }
+					has_global_flag = delete_bulwar_region
+				}
+				AND = {
+					OR = {
+						capital_scope = { region = gol_region }
+						capital_scope = { region = khetapera_region }
+						capital_scope = { superregion = north_salahad_superregion }
+					}
+					has_global_flag = delete_north_sarhal_region
+				}
+				AND = {
+					OR = {
+						capital_scope = { superregion = fangaula_superregion }
+						capital_scope = { region = horashesh_region }
+						capital_scope = { region = fahvanosy_region }
+						capital_scope = { region = katala_raz_region }
+						capital_scope = { region = throden_gokad_region }
+						capital_scope = { region = odu_kherass_region }
+					}
+					has_global_flag = delete_south_sarhal_region
+				}
+				AND = {					
+					OR = {
+						capital_scope = { superregion = east_sarhal_superregion } 
+						capital_scope = { region = jasiir_jadid_region }
+						capital_scope = { region = ardimya_region }
+						capital_scope = { region = gazraak_region }
+					}
+					has_global_flag = delete_east_sarhal_region
+				}
+				AND = {
+					capital_scope = { continent = north_america }
+					has_global_flag = delete_north_aelantir_region
+				}
+				AND = {
+					capital_scope = { continent = south_america }
+					has_global_flag = delete_south_aelantir_region
+				}
+				AND = {
+					capital_scope = { continent = europe }
+					has_global_flag = delete_cannor_region
+				}
+				AND = {
+					capital_scope = { superregion = deepwoods_superregion }
+					has_global_flag = delete_deepwoods_region
+				}
+				AND = {
+					capital_scope = { superregion = rahen_superregion }
+					has_global_flag = delete_rahen_region
+				}
+				AND = {
+					capital_scope = { superregion = forbidden_lands_superregion }
+					has_global_flag = delete_forbidden_plains_region
+				}
+				AND = {
+					OR = {
+						capital_scope = { superregion = yanshen_superregion }
+						capital_scope = { superregion = south_haless_superregion }
+					}
+					has_global_flag = delete_haless_region
+				}
+				AND = {
+					capital_scope = { superregion = east_serpentspine_superregion }
+					has_global_flag = delete_east_serpentspine_region
+				}
+				AND = {
+					capital_scope = { superregion = west_serpentspine_superregion }
+					has_global_flag = delete_west_serpentspine_region
+				}
+				AND = {
+					capital_scope = { superregion = north_haless_superregion }
+					has_global_flag = delete_gozenguun_region
+				}
+				# AND = {
+					# capital_scope = { continent = oceania }
+					# has_global_flag = delete_insyaa_region
+				# }
+			}
+		}
+	}
+	text = {
+		localisation_key = guib_alert_text_none
+		trigger = { always = yes }
+	}
+}
+
+defined_text = {
+	name = GetGuibAlertOrange
+	random = no
+	text = {
+		localisation_key = guib_alert_text_orange
+		trigger = {
+			OR = {
+				AND = {
+					tag_needs_bulwar = yes
+					has_global_flag = delete_bulwar_region
+				}
+				AND = {
+					tag_needs_north_sarhal = yes
+					has_global_flag = delete_north_sarhal_region
+				}
+				AND = {
+					tag_needs_south_sarhal = yes
+					has_global_flag = delete_south_sarhal_region
+				}
+				AND = {
+					tag_needs_east_sarhal = yes
+					has_global_flag = delete_east_sarhal_region
+				}
+				AND = {
+					tag_needs_north_aelantir = yes
+					has_global_flag = delete_north_aelantir_region
+				}
+				AND = {
+					tag_needs_south_aelantir = yes
+					has_global_flag = delete_south_aelantir_region
+				}
+				AND = {
+					tag_needs_deepwoods = yes
+					has_global_flag = delete_deepwoods_region
+				}
+				AND = {
+					tag_needs_rahen = yes
+					has_global_flag = delete_rahen_region
+				}
+				AND = {
+					tag_needs_forbidden_plains = yes
+					has_global_flag = delete_forbidden_plains_region
+				}
+				AND = {
+					tag_needs_haless = yes
+					has_global_flag = delete_haless_region
+				}
+				AND = {
+					tag_needs_east_serpentspine = yes
+					has_global_flag = delete_east_serpentspine_region
+				}
+				AND = {
+					tag_needs_west_serpentspine = yes
+					has_global_flag = delete_west_serpentspine_region
+				}
+				AND = {
+					tag_needs_gozenguun = yes
+					has_global_flag = delete_gozenguun_region
+				}
+
+				# AND = {
+					# tag_needs_insyaa = yes
+					# has_global_flag = delete_insyaa_region
+				# }
+			}
+		}
+	}
+	text = {
+		localisation_key = guib_alert_text_none
+		trigger = { always = yes }
+	}
+}
+
+defined_text = {
+	name = GetGCMode
+	random = no
+	text = {
+		localisation_key = guib_gcmode_conqueror
+		trigger = { has_global_flag = great_conqueror }
+	}
+	text = {
+		localisation_key = guib_gcmode_mythical
+		trigger = { has_global_flag = mythical_conqueror }
+	}
+	text = {
+		localisation_key = guib_gcmode_none
+		trigger = { always = yes }
+	}
+}
+
+defined_text = {
+	name = GetGCVariance
+	random = no
+	text = {
+		localisation_key = guib_gcvariance_some
+		trigger = { has_global_flag = variant_conqueror }
+	}
+	text = {
+		localisation_key = guib_gcvariance_none
+		trigger = { always = yes }
+	}
+}
+
+defined_text = {
+	name = GetGCDelay
+	random = no
+	text = {
+		localisation_key = guib_gcdelay_some
+		trigger = { has_global_flag = delayed_conquerors }
+	}
+	text = {
+		localisation_key = guib_gcdelay_none
+		trigger = { always = yes }
+	}
+}
+
+defined_text = {
+	name = GetGCModeColor
+	random = no
+	text = {
+		localisation_key = guib_gcmode_w
+		trigger = {
+			OR = {
+				has_global_flag = great_conqueror
+				has_global_flag = mythical_conqueror
+			}
+		}
+	}
+	text = {
+		localisation_key = guib_gcmode_g
+		trigger = { always = yes }
+	}
+}

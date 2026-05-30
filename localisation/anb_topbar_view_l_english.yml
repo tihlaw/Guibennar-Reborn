@@ -1,0 +1,62 @@
+﻿l_english:
+ 
+ raj_menubar_value:0 "[4411.raj_cohesion.GetValue]"
+ 
+ guib_settings_title:0 "Settings & Game Performance"
+ guib_disable_region_title:0 "Disabled Regions"
+ guib_settings_north_aelantir:0 "North Aelantir"
+ guib_settings_south_aelantir:0 "South Aelantir"
+ guib_settings_cannor:0 "Cannor"
+ guib_settings_deepwoods:0 "Deepwoods"
+ guib_settings_bulwar:0 "Bulwar"
+ guib_settings_north_sarhal:0 "North Sarhal"
+ guib_settings_south_sarhal:0 "South Sarhal"
+ guib_settings_east_sarhal:0 "East Sarhal"
+ guib_settings_rahen:0 "Rahen"
+ guib_settings_haless:0 "Haless"
+ guib_settings_gozenguun:0 "Gozenguun"
+ guib_settings_forbidden_plains:0 "Forbidden Plains"
+ guib_settings_west_serpentspine:0 "West Serpentspine"
+ guib_settings_east_serpentspine:0 "East Serpentspine"
+ guib_settings_insyaa:0 "Insyaa"
+ 
+ settings_hide_all_title:0 "Disable All"
+ settings_show_all_title:0 "Enable All"
+ 
+ guib_alert_text:0 "[Root.GetGuibAlertRed][Root.GetGuibAlertOrange]"
+ guib_alert_text_red:0 "£icon_settings_alert_red£ §RSome of the disabled region might cause problems to the mod's functions§!\n"
+ guib_alert_text_orange:0 "£icon_settings_alert_orange£ §Othe selected country might have content related to one or more disabled region(s)§!"
+ guib_alert_text_none:0 ""
+ 
+ guib_great_conquerors_title:0 "Great Conquerors"
+ 
+ guib_gc_mode_title:0 "Conquerors mode"
+ guib_gc_mode_value:0 "[Root.GetGCMode]"
+ guib_gcmode_conqueror:0 "Great Conquerors"
+ guib_gcmode_mythical:0 "Mythical Conquerors"
+ guib_gcmode_none:0 "Normal mode"
+ guib_gc_mode_button_tooltip:0 "The §YGreat Conquerors§! setting grant bonuses to dynamically chosen AI countries to help them consolidate their surroundings, to provide more challenging opponents for the middle and late game.\n--------------\n§YNormal Mode:§! Conquerors are disabled and the game will play the same as vanilla\n§YGreat Conquerors:§! A few randomly selected AI countries will occasionally see their ruler get the Great Conqueror modifier, giving them bonuses to conquest and make the AI more aggressive.\n§YMythical Conquerors:§! Mythical Conquerors are a more extreme version of Great Conquerors. Chose this mode if you really enjoy being challenged"
+ 
+ guib_gc_variance_title:0 "[Root.GetGCModeColor]Target Variance§!"
+ guib_gc_variance_value:0 "[Root.GetGCModeColor][Root.GetGCVariance]§!"
+ guib_gcvariance_some:0 "ON"
+ guib_gcvariance_none:0 "OFF"
+ guib_gc_variance_button_tooltip:0 "With §YVariance OFF§!, AI countries that already have a good chance to consolidate their surroundings will be more likely to get chosen as §YGreat Conquerors§!.\n\nWith §YVariance ON§! smaller countries will also become elligible to become §YGreat Conquerors§! to allow for more diversity in your games, at the cost of potentialy having less successful §YGreat Conquerors§!."
+ 
+ guib_gc_delay_title:0 "[Root.GetGCModeColor]Appearance Delay§!"
+ guib_gc_delay_value:0 "[Root.GetGCModeColor][Root.GetGCDelay]§!"
+ guib_gcdelay_some:0 "2nd age delay"
+ guib_gcdelay_none:0 "No delay"
+ guib_gc_delay_button_tooltip:0 "With §Y2nd age delay ON§! AI countries won't be able to receive the §YGreat Conquerors§! bonuses in the first Age, to allow for a saffer start for the player."
+ 
+ guib_gcmode_w:0 "§W"
+ guib_gcmode_g:0 "§g"
+ 
+ guib_achievements_title:0 "Achievements"
+ guib_achievement_tooltip:0 "Disabling achievements can lead to a (very) minor increase of game performance"
+ guib_achievements_on:0 "ON"
+ guib_achievements_off:0 "OFF"
+ 
+ settings_start_button_title:0 "Start the game"
+ 
+ 

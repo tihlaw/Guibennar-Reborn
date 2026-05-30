@@ -1,0 +1,11 @@
+sound = {
+	name = diggy_sound
+	file = "diggy_sound.wav"
+	always_load = yes
+}
+
+sound = {
+	name = empty_sound
+	file = "empty_sound.wav"
+	always_load = yes
+}
