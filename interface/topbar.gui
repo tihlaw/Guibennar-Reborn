@@ -11747,52 +11747,6 @@ guiTypes = {
 		} #End container for Magic Menu UI
 
 		windowType = {
-			name = "raj_menubar_window"
-			backGround=""
-			position = { x=0 y= 0 }
-			size = { x=406 y=70 }
-			dontRender = ""
-			horizontalBorder= ""
-			verticalBorder= ""
-			fullScreen = yes
-			moveable = 0
-			scripted = yes
-
-			iconType = {
-				name ="raj_menubar_bg"
-				spriteType = "GFX_menubar_floating_bg"
-				position = { x = -362 y = -36 }
-				Orientation = "LOWER_RIGHT"
-				scripted = yes
-			}
-
-			instantTextBoxType = {
-				name = "raj_menubar_value"
-				position = { x = -363 y = -18 }
-				font = "vic_18"
-				borderSize = {x = 0 y = 0}
-				text = "100"	
-				maxWidth = 50
-				maxHeight = 32
-				format = centre	
-				Orientation = "LOWER_RIGHT"
-				scripted = yes
-			}
-	 
-			guiButtonType = {
-				name = "raj_menubar_button"
-				position = { x = -360 y = -58 }
-				quadTextureSprite ="GFX_raj_menubar_button"
-				tooltip = ""
-				tooltipText =""
-				delayedTooltipText = ""
-				buttonFont = "Main_14_black"
-				Orientation = "LOWER_RIGHT"
-				scripted = yes
-			}
-		}
-
-		windowType = {
 			name = "guib_settings_window"
 			backGround=""
 			position = { x= -345 y= -325 }
