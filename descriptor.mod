@@ -5,5 +5,5 @@ tags={
 dependencies={
 	"Anbennar: A Fantasy Total Conversion"
 }
-name="Guibennar-revived-dev"
+name="Guibennar Reborn"
 supported_version="v1.37.5.0"
