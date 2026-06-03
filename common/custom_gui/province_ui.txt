@@ -100,10 +100,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_centaur_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = centaur_majority_integrated has_province_modifier = centaur_majority_primary } }
+	potential = { has_province_modifier = centaur_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = centaur_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_centaur_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = centaur_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = centaur_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -184,10 +193,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_dwarven_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = dwarven_majority_integrated has_province_modifier = dwarven_majority_primary } }
+	potential = { has_province_modifier = dwarven_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = dwarven_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_dwarven_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = dwarven_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = dwarven_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -268,10 +286,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_elven_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = elven_majority_integrated has_province_modifier = elven_majority_primary } }
+	potential = { has_province_modifier = elven_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = elven_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_elven_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = elven_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = elven_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -352,10 +379,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_gnollish_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = gnollish_majority_integrated has_province_modifier = gnollish_majority_primary } }
+	potential = { has_province_modifier = gnollish_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnollish_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_gnollish_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = gnollish_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = gnollish_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -436,10 +472,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_gnomish_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = gnomish_majority_integrated has_province_modifier = gnomish_majority_primary } }
+	potential = { has_province_modifier = gnomish_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = gnomish_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_gnomish_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = gnomish_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = gnomish_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -520,10 +565,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_goblin_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = goblin_majority_integrated has_province_modifier = goblin_majority_primary } }
+	potential = { has_province_modifier = goblin_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = goblin_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_goblin_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = goblin_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = goblin_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -604,10 +658,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_half_elven_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = half_elven_majority_integrated has_province_modifier = half_elven_majority_primary } }
+	potential = { has_province_modifier = half_elven_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_elven_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_half_elven_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = half_elven_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = half_elven_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -688,10 +751,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_half_orcish_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = half_orcish_majority_integrated has_province_modifier = half_orcish_majority_primary } }
+	potential = { has_province_modifier = half_orcish_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = half_orcish_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_half_orcish_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = half_orcish_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = half_orcish_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -772,10 +844,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_halfling_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = halfling_majority_integrated has_province_modifier = halfling_majority_primary } }
+	potential = { has_province_modifier = halfling_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = halfling_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_halfling_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = halfling_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = halfling_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -856,10 +937,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_harimari_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = harimari_majority_integrated has_province_modifier = harimari_majority_primary } }
+	potential = { has_province_modifier = harimari_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harimari_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_harimari_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = harimari_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = harimari_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -940,10 +1030,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_harpy_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = harpy_majority_integrated has_province_modifier = harpy_majority_primary } }
+	potential = { has_province_modifier = harpy_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = harpy_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_harpy_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = harpy_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = harpy_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -1024,10 +1123,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_hobgoblin_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = hobgoblin_majority_integrated has_province_modifier = hobgoblin_majority_primary } }
+	potential = { has_province_modifier = hobgoblin_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = hobgoblin_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_hobgoblin_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = hobgoblin_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = hobgoblin_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -1108,10 +1216,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_human_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = human_majority_integrated has_province_modifier = human_majority_primary } }
+	potential = { has_province_modifier = human_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = human_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_human_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = human_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = human_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -1192,10 +1309,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_kobold_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = kobold_majority_integrated has_province_modifier = kobold_majority_primary } }
+	potential = { has_province_modifier = kobold_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = kobold_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_kobold_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = kobold_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = kobold_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -1276,10 +1402,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_lizardfolk_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = lizardfolk_majority_integrated has_province_modifier = lizardfolk_majority_primary } }
+	potential = { has_province_modifier = lizardfolk_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = lizardfolk_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_lizardfolk_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = lizardfolk_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = lizardfolk_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -1360,10 +1495,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_mechanim_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = mechanim_majority_integrated has_province_modifier = mechanim_majority_primary } }
+	potential = { has_province_modifier = mechanim_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = mechanim_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_mechanim_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = mechanim_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = mechanim_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -1444,10 +1588,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_ogre_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = ogre_majority_integrated has_province_modifier = ogre_majority_primary } }
+	potential = { has_province_modifier = ogre_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ogre_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_ogre_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = ogre_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = ogre_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -1528,10 +1681,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_orcish_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = orcish_majority_integrated has_province_modifier = orcish_majority_primary } }
+	potential = { has_province_modifier = orcish_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = orcish_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_orcish_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = orcish_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = orcish_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -1612,10 +1774,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_ruinborn_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = ruinborn_majority_integrated has_province_modifier = ruinborn_majority_primary } }
+	potential = { has_province_modifier = ruinborn_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = ruinborn_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_ruinborn_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = ruinborn_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = ruinborn_majority_primary_ui duration = -1 } }
 	}
 }
 
@@ -1696,10 +1867,19 @@ custom_button = {
 custom_button = {
 	name = province_icon_troll_mi
 	tooltip = province_majority_tt
-	potential = { OR = { has_province_modifier = troll_majority_integrated has_province_modifier = troll_majority_primary } }
+	potential = { has_province_modifier = troll_majority_integrated }
 	trigger = { }
 	effect = {
 		tooltip = { add_province_modifier = { name = troll_majority_integrated_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_troll_mp
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = troll_majority_primary }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = troll_majority_primary_ui duration = -1 } }
 	}
 }
 

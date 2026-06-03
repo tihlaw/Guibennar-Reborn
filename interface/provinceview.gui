@@ -933,6 +933,12 @@ guiTypes = {
 				spriteType ="pop_icon_centaur_mi"
 				scripted = yes
 			}
+			guiButtonType = {
+				name = "province_icon_centaur_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_centaur_mp"
+				scripted = yes
+			}
 			
 			guiButtonType = {
 				name = "province_icon_dwarven_mo"
@@ -950,6 +956,12 @@ guiTypes = {
 				name = "province_icon_dwarven_mi"
 				position = { x = 37 y = 532 }
 				spriteType ="pop_icon_dwarf_mi"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_dwarven_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_dwarf_mp"
 				scripted = yes
 			}
 			
@@ -971,6 +983,12 @@ guiTypes = {
 				spriteType ="pop_icon_elf_mi"
 				scripted = yes
 			}
+			guiButtonType = {
+				name = "province_icon_elven_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_elf_mp"
+				scripted = yes
+			}
 			
 			guiButtonType = {
 				name = "province_icon_gnollish_mo"
@@ -988,6 +1006,12 @@ guiTypes = {
 				name = "province_icon_gnollish_mi"
 				position = { x = 37 y = 532 }
 				spriteType ="pop_icon_gnoll_mi"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_gnollish_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_gnoll_mp"
 				scripted = yes
 			}
 			
@@ -1009,6 +1033,12 @@ guiTypes = {
 				spriteType ="pop_icon_gnome_mi"
 				scripted = yes
 			}
+			guiButtonType = {
+				name = "province_icon_gnomish_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_gnome_mp"
+				scripted = yes
+			}
 			
 			guiButtonType = {
 				name = "province_icon_goblin_mo"
@@ -1026,6 +1056,12 @@ guiTypes = {
 				name = "province_icon_goblin_mi"
 				position = { x = 37 y = 532 }
 				spriteType ="pop_icon_goblin_mi"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_goblin_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_goblin_mp"
 				scripted = yes
 			}
 			
@@ -1047,6 +1083,12 @@ guiTypes = {
 				spriteType ="pop_icon_half_elf_mi"
 				scripted = yes
 			}
+			guiButtonType = {
+				name = "province_icon_half_elven_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_half_elf_mp"
+				scripted = yes
+			}
 			
 			guiButtonType = {
 				name = "province_icon_half_orcish_mo"
@@ -1064,6 +1106,12 @@ guiTypes = {
 				name = "province_icon_half_orcish_mi"
 				position = { x = 37 y = 532 }
 				spriteType ="pop_icon_half_orc_mi"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_half_orcish_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_half_orc_mp"
 				scripted = yes
 			}
 			
@@ -1085,6 +1133,12 @@ guiTypes = {
 				spriteType ="pop_icon_halfling_mi"
 				scripted = yes
 			}
+			guiButtonType = {
+				name = "province_icon_halfling_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_halfling_mp"
+				scripted = yes
+			}
 			
 			guiButtonType = {
 				name = "province_icon_harimari_mo"
@@ -1102,6 +1156,12 @@ guiTypes = {
 				name = "province_icon_harimari_mi"
 				position = { x = 37 y = 532 }
 				spriteType ="pop_icon_harimari_mi"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_harimari_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_harimari_mp"
 				scripted = yes
 			}
 			
@@ -1123,6 +1183,12 @@ guiTypes = {
 				spriteType ="pop_icon_harpy_mi"
 				scripted = yes
 			}
+			guiButtonType = {
+				name = "province_icon_harpy_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_harpy_mp"
+				scripted = yes
+			}
 			
 			guiButtonType = {
 				name = "province_icon_hobgoblin_mo"
@@ -1140,6 +1206,12 @@ guiTypes = {
 				name = "province_icon_hobgoblin_mi"
 				position = { x = 37 y = 532 }
 				spriteType ="pop_icon_hobgoblin_mi"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_hobgoblin_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_hobgoblin_mp"
 				scripted = yes
 			}
 			
@@ -1161,6 +1233,12 @@ guiTypes = {
 				spriteType ="pop_icon_human_mi"
 				scripted = yes
 			}
+			guiButtonType = {
+				name = "province_icon_human_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_human_mp"
+				scripted = yes
+			}
 			
 			guiButtonType = {
 				name = "province_icon_kobold_mo"
@@ -1178,6 +1256,12 @@ guiTypes = {
 				name = "province_icon_kobold_mi"
 				position = { x = 37 y = 532 }
 				spriteType ="pop_icon_kobold_mi"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_kobold_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_kobold_mp"
 				scripted = yes
 			}
 			
@@ -1200,6 +1284,12 @@ guiTypes = {
 				scripted = yes
 			}
 			guiButtonType = {
+				name = "province_icon_lizardfolk_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_lizardfolk_mp"
+				scripted = yes
+			}
+			guiButtonType = {
 				name = "province_icon_mechanim_mo"
 				position = { x = 37 y = 532 }
 				spriteType ="pop_icon_mechanim_mo"
@@ -1215,6 +1305,12 @@ guiTypes = {
 				name = "province_icon_mechanim_mi"
 				position = { x = 37 y = 532 }
 				spriteType ="pop_icon_mechanim_mi"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_mechanim_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_mechanim_mp"
 				scripted = yes
 			}
 			
@@ -1236,6 +1332,12 @@ guiTypes = {
 				spriteType ="pop_icon_ogre_mi"
 				scripted = yes
 			}
+			guiButtonType = {
+				name = "province_icon_ogre_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_ogre_mp"
+				scripted = yes
+			}
 			
 			guiButtonType = {
 				name = "province_icon_orcish_mo"
@@ -1253,6 +1355,12 @@ guiTypes = {
 				name = "province_icon_orcish_mi"
 				position = { x = 37 y = 532 }
 				spriteType ="pop_icon_orc_mi"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_orcish_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_orc_mp"
 				scripted = yes
 			}
 			
@@ -1274,6 +1382,12 @@ guiTypes = {
 				spriteType ="pop_icon_ruinborn_mi"
 				scripted = yes
 			}
+			guiButtonType = {
+				name = "province_icon_ruinborn_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_ruinborn_mp"
+				scripted = yes
+			}
 			
 			guiButtonType = {
 				name = "province_icon_troll_mo"
@@ -1291,6 +1405,12 @@ guiTypes = {
 				name = "province_icon_troll_mi"
 				position = { x = 37 y = 532 }
 				spriteType ="pop_icon_troll_mi"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_troll_mp"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_troll_mp"
 				scripted = yes
 			}
 			
@@ -2009,7 +2129,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "province_icon_ogre_li"
 				position = { x = 235 y = 538 }
-				spriteType ="pop_icon_harpy_li"
+				spriteType ="pop_icon_ogre_li"
 				scale = 0.8
 				scripted = yes
 			}

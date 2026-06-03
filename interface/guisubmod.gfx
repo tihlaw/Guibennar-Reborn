@@ -171,83 +171,6 @@ spriteTypes = {
 		texturefile = "gfx//interface//custom_gui//none_icon.dds"
 	}
 	
-	spriteType = {
-		name = "pop_icon_lizardfolk_la"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_la.dds"
-	}
-	spriteType = {
-		name = "pop_icon_lizardfolk_li"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_li.dds"
-	}
-	spriteType = {
-		name = "pop_icon_lizardfolk_lo"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_lo.dds"
-	}
-	spriteType = {
-		name = "pop_icon_lizardfolk_ma"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_ma.dds"
-	}
-	spriteType = {
-		name = "pop_icon_lizardfolk_mi"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_mi.dds"
-	}
-	spriteType = {
-		name = "pop_icon_lizardfolk_mo"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_mo.dds"
-	}
-	spriteType = {
-		name = "pop_icon_lizardfolk_sa"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_sa.dds"
-	}
-	spriteType = {
-		name = "pop_icon_lizardfolk_si"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_si.dds"
-	}
-	spriteType = {
-		name = "pop_icon_lizardfolk_so"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_so.dds"
-	}
-	
-	spriteType = {
-		name = "pop_icon_mechanim_la"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_la.dds"
-	}
-	spriteType = {
-		name = "pop_icon_mechanim_li"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_li.dds"
-	}
-	spriteType = {
-		name = "pop_icon_mechanim_lo"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_lo.dds"
-	}
-	spriteType = {
-		name = "pop_icon_mechanim_ma"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_ma.dds"
-	}
-	spriteType = {
-		name = "pop_icon_mechanim_mi"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_mi.dds"
-	}
-	spriteType = {
-		name = "pop_icon_mechanim_mo"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_mo.dds"
-	}
-	spriteType = {
-		name = "pop_icon_mechanim_mp"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_mp.dds"
-	}
-	spriteType = {
-		name = "pop_icon_mechanim_sa"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_sa.dds"
-	}
-	spriteType = {
-		name = "pop_icon_mechanim_si"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_si.dds"
-	}
-	spriteType = {
-		name = "pop_icon_mechanim_so"
-		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_so.dds"
-	}
 	
 	
 	spriteType = {
@@ -491,6 +414,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_centaur_mo.dds"
 	}
 	spriteType = {
+		name = "pop_icon_centaur_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_centaur_mp.dds"
+	}
+	spriteType = {
 		name = "pop_icon_centaur_ma"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_centaur_ma.dds"
 	}
@@ -501,6 +428,10 @@ spriteTypes = {
 	spriteType = {
 		name = "pop_icon_human_mo"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_human_mo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_human_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_human_mp.dds"
 	}
 	spriteType = {
 		name = "pop_icon_human_ma"
@@ -587,6 +518,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_dwarf_mo.dds"
 	}
 	spriteType = {
+		name = "pop_icon_dwarf_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_dwarf_mp.dds"
+	}
+	spriteType = {
 		name = "pop_icon_dwarf_ma"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_dwarf_ma.dds"
 	}
@@ -621,6 +556,10 @@ spriteTypes = {
 	spriteType = {
 		name = "pop_icon_elf_mo"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_elf_mo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_elf_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_elf_mp.dds"
 	}
 	spriteType = {
 		name = "pop_icon_elf_ma"
@@ -659,6 +598,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_gnoll_mo.dds"
 	}
 	spriteType = {
+		name = "pop_icon_gnoll_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_gnoll_mp.dds"
+	}
+	spriteType = {
 		name = "pop_icon_gnoll_ma"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_gnoll_ma.dds"
 	}
@@ -693,6 +636,10 @@ spriteTypes = {
 	spriteType = {
 		name = "pop_icon_gnome_mo"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_gnome_mo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_gnome_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_gnome_mp.dds"
 	}
 	spriteType = {
 		name = "pop_icon_gnome_ma"
@@ -731,6 +678,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_goblin_mo.dds"
 	}
 	spriteType = {
+		name = "pop_icon_goblin_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_goblin_mp.dds"
+	}
+	spriteType = {
 		name = "pop_icon_goblin_ma"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_goblin_ma.dds"
 	}
@@ -765,6 +716,10 @@ spriteTypes = {
 	spriteType = {
 		name = "pop_icon_half_elf_mo"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_half_elf_mo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_half_elf_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_half_elf_mp.dds"
 	}
 	spriteType = {
 		name = "pop_icon_half_elf_ma"
@@ -803,6 +758,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_half_orc_mo.dds"
 	}
 	spriteType = {
+		name = "pop_icon_half_orc_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_half_orc_mp.dds"
+	}
+	spriteType = {
 		name = "pop_icon_half_orc_ma"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_half_orc_ma.dds"
 	}
@@ -837,6 +796,10 @@ spriteTypes = {
 	spriteType = {
 		name = "pop_icon_halfling_mo"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_halfling_mo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_halfling_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_halfling_mp.dds"
 	}
 	spriteType = {
 		name = "pop_icon_halfling_ma"
@@ -875,6 +838,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_harimari_mo.dds"
 	}
 	spriteType = {
+		name = "pop_icon_harimari_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_harimari_mp.dds"
+	}
+	spriteType = {
 		name = "pop_icon_harimari_ma"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_harimari_ma.dds"
 	}
@@ -909,6 +876,10 @@ spriteTypes = {
 	spriteType = {
 		name = "pop_icon_harpy_mo"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_harpy_mo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_harpy_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_harpy_mp.dds"
 	}
 	spriteType = {
 		name = "pop_icon_harpy_ma"
@@ -947,6 +918,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_hobgoblin_mo.dds"
 	}
 	spriteType = {
+		name = "pop_icon_hobgoblin_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_hobgoblin_mp.dds"
+	}
+	spriteType = {
 		name = "pop_icon_hobgoblin_ma"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_hobgoblin_ma.dds"
 	}
@@ -981,6 +956,10 @@ spriteTypes = {
 	spriteType = {
 		name = "pop_icon_kobold_mo"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_kobold_mo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_kobold_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_kobold_mp.dds"
 	}
 	spriteType = {
 		name = "pop_icon_kobold_ma"
@@ -1019,6 +998,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_ogre_mo.dds"
 	}
 	spriteType = {
+		name = "pop_icon_ogre_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_ogre_mp.dds"
+	}
+	spriteType = {
 		name = "pop_icon_ogre_ma"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_ogre_ma.dds"
 	}
@@ -1053,6 +1036,10 @@ spriteTypes = {
 	spriteType = {
 		name = "pop_icon_orc_mo"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_orc_mo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_orc_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_orc_mp.dds"
 	}
 	spriteType = {
 		name = "pop_icon_orc_ma"
@@ -1091,6 +1078,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_ruinborn_mo.dds"
 	}
 	spriteType = {
+		name = "pop_icon_ruinborn_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_ruinborn_mp.dds"
+	}
+	spriteType = {
 		name = "pop_icon_ruinborn_ma"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_ruinborn_ma.dds"
 	}
@@ -1127,6 +1118,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_troll_mo.dds"
 	}
 	spriteType = {
+		name = "pop_icon_troll_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_troll_mp.dds"
+	}
+	spriteType = {
 		name = "pop_icon_troll_ma"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_troll_ma.dds"
 	}
@@ -1134,5 +1129,85 @@ spriteTypes = {
 		name = "pop_icon_troll_mi"
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_troll_mi.dds"
 	}
+		spriteType = {
+		name = "pop_icon_lizardfolk_la"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_la.dds"
+	}
+	spriteType = {
+		name = "pop_icon_lizardfolk_li"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_li.dds"
+	}
+	spriteType = {
+		name = "pop_icon_lizardfolk_lo"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_lo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_lizardfolk_ma"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_ma.dds"
+	}
+	spriteType = {
+		name = "pop_icon_lizardfolk_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_mp.dds"
+	}
+	spriteType = {
+		name = "pop_icon_lizardfolk_mi"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_mi.dds"
+	}
+	spriteType = {
+		name = "pop_icon_lizardfolk_mo"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_mo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_lizardfolk_sa"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_sa.dds"
+	}
+	spriteType = {
+		name = "pop_icon_lizardfolk_si"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_si.dds"
+	}
+	spriteType = {
+		name = "pop_icon_lizardfolk_so"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_so.dds"
+	}
 	
+	spriteType = {
+		name = "pop_icon_mechanim_la"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_la.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_li"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_li.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_lo"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_lo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_ma"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_ma.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_mi"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_mi.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_mo"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_mo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_mp.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_sa"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_sa.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_si"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_si.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_so"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_so.dds"
+	}
 }
