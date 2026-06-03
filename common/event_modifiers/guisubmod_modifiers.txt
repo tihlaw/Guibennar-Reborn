@@ -2089,7 +2089,7 @@ lizardfolk_majority_primary_ui = {
 	picture = "pop_icon_lizardfolk_mp"
 }
 
-#Mechanim - mirrored from lizardfolk UI modifiers until Anbennar-specific GUIbennar values are tuned
+#Mechanim - when oppressed they're just cheap labour, when integrated they help to spread institutions and are more efficient at producing goods
 #Mechanim Minority
 mechanim_minority_oppressed_small_ui = {
 	local_unrest = 2
