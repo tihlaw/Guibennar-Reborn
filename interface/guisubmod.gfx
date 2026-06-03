@@ -208,6 +208,47 @@ spriteTypes = {
 		texturefile = "gfx//interface//ideas_EU4//pop_icon_lizardfolk_so.dds"
 	}
 	
+	spriteType = {
+		name = "pop_icon_mechanim_la"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_la.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_li"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_li.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_lo"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_lo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_ma"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_ma.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_mi"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_mi.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_mo"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_mo.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_mp"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_mp.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_sa"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_sa.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_si"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_si.dds"
+	}
+	spriteType = {
+		name = "pop_icon_mechanim_so"
+		texturefile = "gfx//interface//ideas_EU4//pop_icon_mechanim_so.dds"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_build_roost_button"

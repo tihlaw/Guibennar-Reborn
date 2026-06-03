@@ -1199,6 +1199,24 @@ guiTypes = {
 				spriteType ="pop_icon_lizardfolk_mi"
 				scripted = yes
 			}
+			guiButtonType = {
+				name = "province_icon_mechanim_mo"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_mechanim_mo"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_mechanim_ma"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_mechanim_ma"
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_mechanim_mi"
+				position = { x = 37 y = 532 }
+				spriteType ="pop_icon_mechanim_mi"
+				scripted = yes
+			}
 			
 			guiButtonType = {
 				name = "province_icon_ogre_mo"
@@ -2121,6 +2139,49 @@ guiTypes = {
 				name = "province_icon_troll_li"
 				position = { x = 316 y = 538 }
 				spriteType ="pop_icon_troll_li"
+				scale = 0.8
+				scripted = yes
+			}
+
+			guiButtonType = {
+				name = "province_icon_mechanim_so"
+				position = { x = 343 y = 538 }
+				spriteType ="pop_icon_mechanim_so"
+				scale = 0.8
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_mechanim_lo"
+				position = { x = 343 y = 538 }
+				spriteType ="pop_icon_mechanim_lo"
+				scale = 0.8
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_mechanim_sa"
+				position = { x = 343 y = 538 }
+				spriteType ="pop_icon_mechanim_sa"
+				scale = 0.8
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_mechanim_la"
+				position = { x = 343 y = 538 }
+				spriteType ="pop_icon_mechanim_la"
+				scale = 0.8
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_mechanim_si"
+				position = { x = 343 y = 538 }
+				spriteType ="pop_icon_mechanim_si"
+				scale = 0.8
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "province_icon_mechanim_li"
+				position = { x = 343 y = 538 }
+				spriteType ="pop_icon_mechanim_li"
 				scale = 0.8
 				scripted = yes
 			}

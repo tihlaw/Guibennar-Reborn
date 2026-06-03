@@ -1284,6 +1284,90 @@ custom_button = {
 }
 
 
+#mechanim
+custom_button = {
+	name = province_icon_mechanim_so
+	tooltip = province_minority_tt
+	potential = { has_province_modifier = mechanim_minority_oppressed_small }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = mechanim_minority_oppressed_small_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_mechanim_lo
+	tooltip = province_minority_tt
+	potential = { has_province_modifier = mechanim_minority_oppressed_large }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = mechanim_minority_oppressed_large_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_mechanim_sa
+	tooltip = province_minority_tt
+	potential = { has_province_modifier = mechanim_minority_coexisting_small }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = mechanim_minority_coexisting_small_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_mechanim_la
+	tooltip = province_minority_tt
+	potential = { has_province_modifier = mechanim_minority_coexisting_large }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = mechanim_minority_coexisting_large_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_mechanim_si
+	tooltip = province_minority_tt
+	potential = { has_province_modifier = mechanim_minority_integrated_small }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = mechanim_minority_integrated_small_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_mechanim_li
+	tooltip = province_minority_tt
+	potential = { has_province_modifier = mechanim_minority_integrated_large }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = mechanim_minority_integrated_large_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_mechanim_mo
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = mechanim_majority_oppressed }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = mechanim_majority_oppressed_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_mechanim_ma
+	tooltip = province_majority_tt
+	potential = { has_province_modifier = mechanim_majority_coexisting }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = mechanim_majority_coexisting_ui duration = -1 } }
+	}
+}
+custom_button = {
+	name = province_icon_mechanim_mi
+	tooltip = province_majority_tt
+	potential = { OR = { has_province_modifier = mechanim_majority_integrated has_province_modifier = mechanim_majority_primary } }
+	trigger = { }
+	effect = {
+		tooltip = { add_province_modifier = { name = mechanim_majority_integrated_ui duration = -1 } }
+	}
+}
+
+
 #ogre
 custom_button = {
 	name = province_icon_ogre_so

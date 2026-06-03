@@ -943,8 +943,8 @@ half_elven_majority_integrated_ui = {
 
 	local_tax_modifier = 0.1
 	local_development_cost = -0.1
-	local_core_creation = -0.2			#they are diplomats so they can argue your case, in anbennar they are signs of legitimacy
-	
+	local_autonomy = -0.2			#they are diplomats so they can argue your case, in anbennar they are signs of legitimacy
+	# used to be core creation, but ig anbennar changed it?
 	local_missionary_strength = 0.01
 	local_culture_conversion_cost = 0.50
 	picture = "pop_icon_half_elf_mi"
@@ -2087,4 +2087,88 @@ lizardfolk_majority_primary_ui = {
 	local_missionary_strength = 0.01
 	
 	picture = "pop_icon_lizardfolk_mp"
+}
+
+#Mechanim - mirrored from lizardfolk UI modifiers until Anbennar-specific GUIbennar values are tuned
+#Mechanim Minority
+mechanim_minority_oppressed_small_ui = {
+	local_unrest = 2
+	local_production_efficiency = 0.15
+	picture = "pop_icon_mechanim_so"
+}
+
+mechanim_minority_oppressed_large_ui = {
+	local_unrest = 2
+	local_production_efficiency = 0.15
+	picture = "pop_icon_mechanim_lo"
+}
+
+mechanim_minority_coexisting_small_ui = {
+	local_unrest = 1
+	local_state_maintenance_modifier = 0.1
+	local_production_efficiency = 0.075
+	local_build_time = -0.05
+	picture = "pop_icon_mechanim_sa"
+}
+
+mechanim_minority_coexisting_large_ui = {
+	local_unrest = 2
+	local_state_maintenance_modifier = 0.25
+	local_production_efficiency = 0.15
+	local_build_time = -0.10
+	picture = "pop_icon_mechanim_la"
+}
+
+mechanim_minority_integrated_small_ui = {
+	local_unrest = 1
+	local_state_maintenance_modifier = 0.30
+	local_autonomy = 0.025
+	local_production_efficiency = 0.075
+	local_build_time = -0.05
+	local_institution_spread = 0.075
+	picture = "pop_icon_mechanim_si"
+}
+
+mechanim_minority_integrated_large_ui = {
+	local_unrest = 2
+	local_state_maintenance_modifier = 0.50
+	local_autonomy = 0.05
+	local_production_efficiency = 0.15
+	local_build_time = -0.10
+	local_institution_spread = 0.15
+	picture = "pop_icon_mechanim_li"
+}
+
+#Mechanim Majority
+mechanim_majority_oppressed_ui = {
+	local_production_efficiency = 0.15
+	local_culture_conversion_cost = -0.25
+	local_culture_conversion_time = -0.25
+	picture = "pop_icon_mechanim_mo"
+}
+
+mechanim_majority_coexisting_ui = {
+	local_production_efficiency = 0.15
+	local_build_time = -0.10
+	local_culture_conversion_cost = 0.25
+	picture = "pop_icon_mechanim_ma"
+}
+
+mechanim_majority_integrated_ui = {
+	local_production_efficiency = 0.15
+	local_build_time = -0.10
+	local_institution_spread = 0.15
+
+	local_missionary_strength = 0.01
+	local_culture_conversion_cost = 0.50
+	picture = "pop_icon_mechanim_mi"
+}
+
+mechanim_majority_primary_ui = {
+	local_production_efficiency = 0.15
+	local_build_time = -0.10
+	local_institution_spread = 0.15
+	local_missionary_strength = 0.01
+	
+	picture = "pop_icon_mechanim_mp"
 }
