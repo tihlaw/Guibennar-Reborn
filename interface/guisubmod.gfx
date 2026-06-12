@@ -1,5 +1,11 @@
 spriteTypes = {
 
+	#province view frame
+	spriteType = {
+		name = "GFX_provinceview_bg_new_frame"
+		texturefile = "gfx/interface/provinceview_bg_new_frame.dds"
+	}
+
 	#submod shit
 	spriteType = {
 		name = "GFX_autonomy_icon"

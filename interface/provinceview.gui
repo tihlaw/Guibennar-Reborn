@@ -340,13 +340,7 @@ guiTypes = {
 		fullScreen = no
 		Orientation = "LOWER_LEFT"
 
-		iconType =
-		{
-			name ="province_terrain"
-			spriteType = "GFX_combat_terrain_hills"
-			position = { x = 30 y = 16 }
-			scale = 1.29533
-		}
+		
 
 		iconType =
 		{
@@ -376,8 +370,24 @@ guiTypes = {
 			position = { x= -2 y = -98}
 		}
 
+		iconType =
+		{
+			name ="province_terrain"
+			spriteType = "GFX_combat_terrain_hills"
+			position = { x = 30 y = 16 }
+			scale = 1.29533
+		}
 
 
+
+
+		iconType =
+		{
+			name ="provinceview_bg_large_frame"
+			spriteType = "GFX_provinceview_bg_new_frame"
+			position = { x= -2 y = -98}
+			alwaystransparent = yes
+		}
 
 
 
@@ -3614,7 +3624,7 @@ guiTypes = {
 				{
 					name ="background"
 					spriteType = "GFX_tradegood_info_bg"
-					position = { x = 1 y = -11 }
+					position = { x = 1 y = -10 } #y-11 
 					Orientation = "UPPER_LEFT"
 				}
 
