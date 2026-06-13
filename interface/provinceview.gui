@@ -1,6 +1,49 @@
+#Gene Pillar @constants
+@empty = 1
+@locked = 2
+@min_class_value = 3
+@fighter_A = 3 #13
+@fighter_B = 4 #14
+@fighter_C = 5 #15
+@fighter_D = 6 #16
+@fighter_E = 7 #17
+@ranger_A = 8
+@ranger_B = 9
+@ranger_C = 10
+@ranger_D = 11
+@ranger_E = 12
+@rogue_A = 13 #3
+@rogue_B = 14 #4
+@rogue_C = 15 #5
+@rogue_D = 16 #6
+@rogue_E = 17 #7
+@cleric_A = 18
+@cleric_B = 19
+@cleric_C = 20
+@cleric_D = 21
+@cleric_E = 22
+@mage_A = 23
+@mage_B = 24
+@mage_C = 25
+@mage_D = 26
+@mage_E = 27
+@artificer_A = 28
+@artificer_B = 29
+@artificer_C = 30
+@artificer_D = 31
+@artificer_E = 32
+
+
+@rogue_archetype_frame = 3
+@ranger_archetype_frame = 2
+@figher_archetype_frame = 1
+@cleric_archetype_frame = 4
+@mage_archetype_frame = 5
+@artificer_archetype_frame = 6
+
 guiTypes = {
 	
-		#Janissaries #1.35
+	#Janissaries #1.35
 	windowType = {
 		name = "janissaries_state_view"
 		backGround=""
@@ -297,13 +340,7 @@ guiTypes = {
 		fullScreen = no
 		Orientation = "LOWER_LEFT"
 
-		iconType =
-		{
-			name ="province_terrain"
-			spriteType = "GFX_combat_terrain_hills"
-			position = { x = 30 y = 16 }
-			scale = 1.29533
-		}
+		
 
 		iconType =
 		{
@@ -333,8 +370,24 @@ guiTypes = {
 			position = { x= -2 y = -98}
 		}
 
+		iconType =
+		{
+			name ="province_terrain"
+			spriteType = "GFX_combat_terrain_hills"
+			position = { x = 30 y = 16 }
+			scale = 1.29533
+		}
 
 
+
+
+		iconType =
+		{
+			name ="provinceview_bg_large_frame"
+			spriteType = "GFX_provinceview_bg_new_frame"
+			position = { x= -2 y = -98}
+			alwaystransparent = yes
+		}
 
 
 
@@ -3571,7 +3624,7 @@ guiTypes = {
 				{
 					name ="background"
 					spriteType = "GFX_tradegood_info_bg"
-					position = { x = 1 y = -11 }
+					position = { x = 1 y = -10 } #y-11 
 					Orientation = "UPPER_LEFT"
 				}
 
@@ -4269,14 +4322,13 @@ guiTypes = {
 				delayedTooltipText = ""
 				buttonText = "PW_BACK"
 				buttonFont = "vic_18"
-				shortcut = "ESCAPE"
 				clicksound = back_click
 				scripted = yes
 			}
 			
 			iconType = {
-				name = "dig_build_hidder"
-				spriteType = "GFX_dig_build_hidder"
+				name = "dig_build_cover"
+				spriteType = "GFX_dig_build_cover"
 				position = { x = 191 y = 129 }
 				Orientation = "UPPER_LEFT"
 				scripted = yes
@@ -4287,22 +4339,22 @@ guiTypes = {
 			### Race specific buttons
 			
 			#Blorc
-			guiButtonType = {
-				name ="plunder_hold_button"
-				position = { x= 448 y = -85 }
-				quadTextureSprite ="GFX_plunder_hold_button"
-				buttonFont = "vic_18"
-				Orientation = "UPPER_LEFT"
-				scripted = yes
-			}
-			guiButtonType = {
-				name ="blorc_upgrade_fort_button"
-				position = { x= 448 y = -85 }
-				quadTextureSprite ="GFX_blorc_upgrade_fort_button"
-				buttonFont = "vic_18"
-				Orientation = "UPPER_LEFT"
-				scripted = yes
-			}
+#			guiButtonType = {
+#				name ="plunder_hold_button"
+#				position = { x= 448 y = -85 }
+#				quadTextureSprite ="GFX_plunder_hold_button"
+#				buttonFont = "vic_18"
+#				Orientation = "UPPER_LEFT"
+#				scripted = yes
+#			}
+#			guiButtonType = {
+#				name ="blorc_upgrade_fort_button"
+#				position = { x= 448 y = -85 }
+#				quadTextureSprite ="GFX_blorc_upgrade_fort_button"
+#				buttonFont = "vic_18"
+#				Orientation = "UPPER_LEFT"
+#				scripted = yes
+#			}
 			
 			
 			#Harpy roosts
@@ -9310,7 +9362,6 @@ guiTypes = {
 			extra_shortcut = "ESCAPE"
 		}
 	}
-
 	### New buildings window (Common Sense and beyond) where layout is manual
 	windowType = {
 		name = "new_buildings_entry2"

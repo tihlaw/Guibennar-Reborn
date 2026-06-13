@@ -1,5 +1,11 @@
 spriteTypes = {
 
+	#province view frame
+	spriteType = {
+		name = "GFX_provinceview_bg_new_frame"
+		texturefile = "gfx/interface/provinceview_bg_new_frame.dds"
+	}
+
 	#submod shit
 	spriteType = {
 		name = "GFX_autonomy_icon"
@@ -135,8 +141,8 @@ spriteTypes = {
 		noOfFrames = 10
 	}
 	spriteType = {
-		name = "GFX_dig_build_hidder"
-		texturefile = "gfx//interface//custom_gui//dig_build_hidder.dds"
+		name = "GFX_dig_build_cover"
+		texturefile = "gfx//interface//custom_gui//dig_build_cover.dds"
 	}
 	spriteType = {
 		name = "GFX_plunder_hold_button"
@@ -147,24 +153,124 @@ spriteTypes = {
 		texturefile = "gfx//interface//custom_gui//blorc_upgrade_fort_button.dds"
 	}
 	spriteType = {
+		name = "hold_foundry"
+		texturefile = "gfx//interface//ideas_EU4//hold_foundry.dds"
+	}
+	spriteType = {
+		name = "hold_foundry_2"
+		texturefile = "gfx//interface//ideas_EU4//hold_foundry_2.dds"
+	}
+	spriteType = {
+		name = "hold_foundry_plundered"
+		texturefile = "gfx//interface//ideas_EU4//hold_foundry_plundered.dds"
+	}
+	spriteType = {
+		name = "hold_city"
+		texturefile = "gfx//interface//ideas_EU4//hold_city.dds"
+	}
+	spriteType = {
+		name = "hold_city_2"
+		texturefile = "gfx//interface//ideas_EU4//hold_city_2.dds"
+	}
+	spriteType = {
+		name = "hold_city_plundered"
+		texturefile = "gfx//interface//ideas_EU4//hold_city_plundered.dds"
+	}
+	spriteType = {
+		name = "hold_artisan"
+		texturefile = "gfx//interface//ideas_EU4//hold_artisan.dds"
+	}
+	spriteType = {
+		name = "hold_artisan_2"
+		texturefile = "gfx//interface//ideas_EU4//hold_artisan_2.dds"
+	}
+	spriteType = {
+		name = "hold_artisan_plundered"
+		texturefile = "gfx//interface//ideas_EU4//hold_artisan_plundered.dds"
+	}
+	spriteType = {
+		name = "hold_farm"
+		texturefile = "gfx//interface//ideas_EU4//hold_farm.dds"
+	}
+	spriteType = {
+		name = "hold_farm_2"
+		texturefile = "gfx//interface//ideas_EU4//hold_farm_2.dds"
+	}
+	spriteType = {
+		name = "hold_farm_plundered"
+		texturefile = "gfx//interface//ideas_EU4//hold_farm_plundered.dds"
+	}
+	spriteType = {
+		name = "hold_military"
+		texturefile = "gfx//interface//ideas_EU4//hold_military.dds"
+	}
+	spriteType = {
+		name = "hold_military_2"
+		texturefile = "gfx//interface//ideas_EU4//hold_military_2.dds"
+	}
+	spriteType = {
+		name = "hold_vaults"
+		texturefile = "gfx//interface//ideas_EU4//vault_icon.dds"
+	}
+	spriteType = {
+		name = "hold_vaults_2"
+		texturefile = "gfx//interface//ideas_EU4//vault_icon.dds"
+	}
+	spriteType = {
+		name = "hold_vaults_plundered"
+		texturefile = "gfx//interface//ideas_EU4//vault_icon.dds"
+	}
+	spriteType = {
+		name = "hold_vault_museum"
+		texturefile = "gfx//interface//ideas_EU4//hold_engineer_manufactory.dds"
+	}
+	spriteType = {
+		name = "hold_vault_museum_plundered"
+		texturefile = "gfx//interface//ideas_EU4//hold_engineer_manufactory_plundered.dds"
+	}
+	spriteType = {
+		name = "hold_military_plundered"
+		texturefile = "gfx//interface//ideas_EU4//hold_military_plundered.dds"
+	}
+	spriteType = {
 		name = "hold_magma_forge"
 		texturefile = "gfx//interface//ideas_EU4//hold_magma_forge.dds"
+	}
+	spriteType = {
+		name = "hold_magma_forge_plundered"
+		texturefile = "gfx//interface//ideas_EU4//hold_magma_forge_plundered.dds"
 	}
 	spriteType = {
 		name = "hold_artificer_hall"
 		texturefile = "gfx//interface//ideas_EU4//hold_artificer_hall.dds"
 	}
 	spriteType = {
+		name = "hold_artificer_hall_plundered"
+		texturefile = "gfx//interface//ideas_EU4//hold_artificer_hall_plundered.dds"
+	}
+	spriteType = {
 		name = "hold_engineer_manufactory"
 		texturefile = "gfx//interface//ideas_EU4//hold_engineer_manufactory.dds"
+	}
+	spriteType = {
+		name = "hold_engineer_manufactory_plundered"
+		texturefile = "gfx//interface//ideas_EU4//hold_engineer_manufactory_plundered.dds"
 	}
 	spriteType = {
 		name = "hold_high_gardens"
 		texturefile = "gfx//interface//ideas_EU4//hold_high_gardens.dds"
 	}
 	spriteType = {
+		name = "hold_high_gardens_plundered"
+		texturefile = "gfx//interface//ideas_EU4//hold_high_gardens_plundered.dds"
+	}
+	spriteType = {
 		name = "hold_military_academy"
 		texturefile = "gfx//interface//ideas_EU4//hold_military_academy.dds"
+	}
+	spriteType = {
+		name = "hold_military_academy_plundered"
+		texturefile = "gfx//interface//ideas_EU4//hold_military_academy_plundered.dds"
 	}
 	spriteType = {
 		name = "GFX_none_icon"

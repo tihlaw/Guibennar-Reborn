@@ -26,18 +26,18 @@ country_event = {
 			set_variable = { which = remaining_free_genocide value = 1 }
 
 			# Sets where the limits are
-			set_variable = {	# Maxes out at 100
-				which = max_race_tolerance
-				value = 100
-			}
-			set_variable = {	# Above this integrated
-				which = high_race_tolerance
-				value = 70	#used to be 60
-			}
-			set_variable = {	# Below this oppressed
-				which = low_race_tolerance
-				value = 30	#used to be 41
-			}
+			#set_variable = {	# Maxes out at 100
+			#	which = max_race_tolerance
+			#	value = 100
+			#}
+			#set_variable = {	# Above this integrated
+			#	which = high_race_tolerance
+			#	value = 70	#used to be 60
+			#}
+			#set_variable = {	# Below this oppressed
+			#	which = low_race_tolerance
+			#	value = 30	#used to be 41
+			#}
 			
 			# Sets up basic tolerance (do not touch)
 			set_variable = {
@@ -10855,7 +10855,7 @@ country_event = {
 				limit = {
 					culture_is_elven = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = elven_majority_primary
 					duration = -1
 					hidden = yes
@@ -10868,7 +10868,7 @@ country_event = {
 				limit = {
 					culture_is_dwarven = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = dwarven_majority_primary
 					duration = -1
 					hidden = yes
@@ -10881,7 +10881,7 @@ country_event = {
 				limit = {
 					culture_is_halfling = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = halfling_majority_primary
 					duration = -1
 					hidden = yes
@@ -10894,7 +10894,7 @@ country_event = {
 				limit = {
 					culture_is_gnomish = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = gnomish_majority_primary
 					duration = -1
 					hidden = yes
@@ -10906,7 +10906,7 @@ country_event = {
 				limit = {
 					culture_is_half_orcish = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = half_orcish_majority_primary
 					duration = -1
 					hidden = yes
@@ -10919,7 +10919,7 @@ country_event = {
 				limit = {
 					culture_is_kobold = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = kobold_majority_primary
 					duration = -1
 					hidden = yes
@@ -10932,7 +10932,7 @@ country_event = {
 				limit = {
 					culture_is_orcish = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = orcish_majority_primary
 					duration = -1
 					hidden = yes
@@ -10945,7 +10945,7 @@ country_event = {
 				limit = {
 					culture_is_human = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = human_majority_primary
 					duration = -1
 					hidden = yes
@@ -10958,7 +10958,7 @@ country_event = {
 				limit = {
 					culture_is_gnollish = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = gnollish_majority_primary
 					duration = -1
 					hidden = yes
@@ -10970,7 +10970,7 @@ country_event = {
 				limit = {
 					culture_is_ruinborn = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = ruinborn_majority_primary
 					duration = -1
 					hidden = yes
@@ -10983,7 +10983,7 @@ country_event = {
 				limit = {
 					culture_is_goblin = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = goblin_majority_primary
 					duration = -1
 					hidden = yes
@@ -10996,7 +10996,7 @@ country_event = {
 				limit = {
 					culture_is_harpy = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = harpy_majority_primary
 					duration = -1
 					hidden = yes
@@ -11009,7 +11009,7 @@ country_event = {
 				limit = {
 					culture_is_troll = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = troll_majority_primary
 					duration = -1
 					hidden = yes
@@ -11022,7 +11022,7 @@ country_event = {
 				limit = {
 					culture_is_half_elven = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = half_elven_majority_primary
 					duration = -1
 					hidden = yes
@@ -11035,7 +11035,7 @@ country_event = {
 				limit = {
 					culture_is_harimari = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = harimari_majority_primary
 					duration = -1
 					hidden = yes
@@ -11048,7 +11048,7 @@ country_event = {
 				limit = {
 					culture_is_hobgoblin = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = hobgoblin_majority_primary
 					duration = -1
 					hidden = yes
@@ -11061,7 +11061,7 @@ country_event = {
 				limit = {
 					culture_is_centaur = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = centaur_majority_primary
 					duration = -1
 					hidden = yes
@@ -11074,7 +11074,7 @@ country_event = {
 				limit = {
 					culture_is_ogre = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = ogre_majority_primary
 					duration = -1
 					hidden = yes
@@ -11087,7 +11087,7 @@ country_event = {
 				limit = {
 					culture_is_lizardfolk = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = lizardfolk_majority_primary
 					duration = -1
 					hidden = yes
@@ -11100,7 +11100,7 @@ country_event = {
 				limit = {
 					culture_is_mechanim = yes
 				}
-				add_permanent_province_modifier = {
+				add_province_modifier = {
 					name = mechanim_majority_primary
 					duration = -1
 					hidden = yes

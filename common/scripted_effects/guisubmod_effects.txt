@@ -1,0 +1,88 @@
+# this effect does not seem to be used anywhere, please verify
+update_specific_minority_on_owner_change = {
+	if = {
+		limit = { has_province_flag = $race$_minority_small }
+		
+		if = {
+			limit = { owner = { high_tolerance_$race$_race_trigger = yes } }
+			
+			add_province_modifier = {
+				name = $race$_minority_integrated_small
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { owner = { medium_tolerance_$race$_race_trigger = yes } }
+			
+			add_province_modifier = {
+				name = $race$_minority_coexisting_small
+				duration = -1
+				hidden = yes
+			}
+		}
+		else = {
+			limit = { owner = { medium_tolerance_$race$_race_trigger = yes } }
+			
+			add_province_modifier = {
+				name = $race$_minority_oppressed_small
+				duration = -1
+				hidden = yes
+			}
+		}
+	}
+	else_if = {
+		limit = { has_province_flag = $race$_minority_large }
+		
+		if = {
+			limit = { owner = { high_tolerance_$race$_race_trigger = yes } }
+			
+			add_province_modifier = {
+				name = $race$_minority_integrated_large
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = { owner = { medium_tolerance_$race$_race_trigger = yes } }
+			
+			add_province_modifier = {
+				name = $race$_minority_coexisting_large
+				duration = -1
+				hidden = yes
+			}
+		}
+		else = {
+			limit = { owner = { medium_tolerance_$race$_race_trigger = yes } }
+			
+			add_province_modifier = {
+				name = $race$_minority_oppressed_large
+				duration = -1
+				hidden = yes
+			}
+		}
+	}
+}
+
+# this effect does not seem to be used anywhere, please verify
+update_all_minorities_on_owner_change = {
+	update_specific_minority_on_owner_change = { race = centaur }
+	update_specific_minority_on_owner_change = { race = elven }
+	update_specific_minority_on_owner_change = { race = dwarven }
+	update_specific_minority_on_owner_change = { race = gnollish }
+	update_specific_minority_on_owner_change = { race = gnomish }
+	update_specific_minority_on_owner_change = { race = goblin }
+	update_specific_minority_on_owner_change = { race = half_elven }
+	update_specific_minority_on_owner_change = { race = half_orcish }
+	update_specific_minority_on_owner_change = { race = halfling }
+	update_specific_minority_on_owner_change = { race = harimari }
+	update_specific_minority_on_owner_change = { race = harpy }
+	update_specific_minority_on_owner_change = { race = hobgoblin }
+	update_specific_minority_on_owner_change = { race = human }
+	update_specific_minority_on_owner_change = { race = kobold }
+	update_specific_minority_on_owner_change = { race = lizardfolk }
+	update_specific_minority_on_owner_change = { race = ogre }
+	update_specific_minority_on_owner_change = { race = orcish }
+	update_specific_minority_on_owner_change = { race = ruinborn }
+	update_specific_minority_on_owner_change = { race = troll }
+}

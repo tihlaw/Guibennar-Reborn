@@ -1,3 +1,5 @@
+# modifiers for purely display purposes
+
 dig_1_ui = {
 	local_development_cost = -0.1 #30
 	trade_goods_size = 0.05
@@ -135,8 +137,6 @@ dig_11_ui = {
 	picture = "hold_11"
 }
 
-
-
 hold_foundry_ui = {
 	trade_goods_size = 1
 	global_regiment_cost = -0.02
@@ -243,6 +243,30 @@ hold_military_2_ui = {
 	drill_gain_modifier = 0.035
 	regiment_recruit_speed = -0.5
 	picture = "hold_military_2"
+}
+
+hold_vaults_ui = {
+	trade_goods_size = 0.5
+	yearly_corruption = -0.1
+	global_unrest = -2
+	allowed_rajput_fraction = 0.05
+	picture = "hold_vault"
+}
+
+hold_vaults_2_ui = {
+	trade_goods_size = 1
+	yearly_corruption = -0.2
+	global_unrest = -4
+	allowed_rajput_fraction = 0.1
+	picture = "hold_vault_2"
+}
+
+vault_museum_ui = {
+	trade_goods_size = 1
+	prestige_decay = -0.01
+	innovativeness_gain = 0.5
+	artificers_research_time = -0.20
+	picture = "hold_vault_museum" #TODO: reicon
 }
 
 military_academy_ui = {
