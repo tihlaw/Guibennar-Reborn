@@ -2,3 +2,8 @@ on_startup = {
 	country_event = { id = guisubmod.1 days = 2 }
 	country_event = { id = guisubmod.2 days = 2 }
 }
+
+on_province_owner_change = {
+	add_majority_of_current_culture = yes
+    update_all_minorities_on_owner_change = yes
+}
