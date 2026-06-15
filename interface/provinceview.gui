@@ -3978,9 +3978,18 @@ guiTypes = {
 			}
 			
 			guiButtonType = {
-				name = "diggy_diggy_dig_button"
-				position = { x= 234 y = 290 }
+				name = "diggy_diggy_go"
+				position = { x= 280 y = 290 }
 				quadTextureSprite = "GFX_diggydiggy_start"
+				clicksound = diggy_sound
+				scripted = yes
+			}
+
+			### EXPLORE button (AKT logic: DA_province_explore_button) added to the left of DIG
+			guiButtonType = {
+				name = "DA_province_explore_button"
+				position = { x= 190 y = 290 }
+				quadTextureSprite = "GFX_DA_topbar_alert_explore"
 				clicksound = diggy_sound
 				scripted = yes
 			}
@@ -8404,7 +8413,7 @@ guiTypes = {
 
 	positionType = {
 		name = "building_start"
-		position = { x = 41 y = 47 }
+		position = { x = 41 y = 162 }
 	}
 
 	positionType = {
@@ -8414,7 +8423,7 @@ guiTypes = {
 
 	positionType = {
 		name = "building_max_per_row"
-		position = { x = 4 y = 0 }
+		position = { x = 7 y = 0 }
 	}
 
 

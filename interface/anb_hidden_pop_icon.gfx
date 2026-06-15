@@ -1,0 +1,8 @@
+spriteTypes = {
+	# [FORK] fully transparent sprite to hide ONLY the racial minority icons
+	# (trade map + province banner) while keeping the modifiers and their effects.
+	spriteType = {
+		name = "pop_icon_hidden"
+		texturefile = "gfx//interface//resource_transparent.dds"
+	}
+}
