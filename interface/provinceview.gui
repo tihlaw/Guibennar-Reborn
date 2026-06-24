@@ -5050,7 +5050,7 @@ guiTypes = {
 			guiButtonType =
 			{
 				name = "concentrate_development"
-				quadTextureSprite = "GFX_empty"
+				quadTextureSprite = "GFX_concentrate_development"
 				position = { x = 378 y = 9 }
 			}
 			
